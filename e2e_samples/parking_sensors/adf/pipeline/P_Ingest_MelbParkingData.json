@@ -30,7 +30,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/notebooks/02_standardize",
+					"notebookPath": "/Users/bjanardhan18_saveetha.com#ext#@bjanardhan18saveetha.onmicrosoft.com/02_standardize",
 					"baseParameters": {
 						"infilefolder": {
 							"value": "@variables('infilefolder')",
@@ -40,17 +40,7 @@
 							"value": "@pipeline().RunId",
 							"type": "Expression"
 						}
-					},
-					"libraries": [
-						{
-							"egg": "dbfs:/mnt/datalake/sys/databricks/libs/ddo_transform-localdev-py2.py3-none-any.whl"
-						},
-						{
-							"pypi": {
-								"package": "applicationinsights"
-							}
-						}
-					]
+					}
 				},
 				"linkedServiceName": {
 					"referenceName": "Ls_AzureDatabricks_01",
