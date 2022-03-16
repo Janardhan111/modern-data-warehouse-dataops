@@ -30,7 +30,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/notebooks/02_standardize",
+					"notebookPath": "/Users/bjanardhan18_saveetha.com#ext#@bjanardhan18saveetha.onmicrosoft.com/02_standardize",
 					"baseParameters": {
 						"infilefolder": {
 							"value": "@variables('infilefolder')",
